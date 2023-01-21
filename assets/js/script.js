@@ -134,6 +134,15 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+function sendMail() {
+         var link = "mailto:souradipnath4@gmail.com"
+         + "?from=" + escape(formInputs[1].value)
+         + "&subject=" + escape("Hi, from " + formInputs[0].value)
+         + "&body=" + escape(formInputs[2].value)
+     ;
+
+     window.location.href = link;
+ }
 
 
 // page navigation variables
