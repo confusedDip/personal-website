@@ -1526,7 +1526,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * #CONTACT
    */
-
+   .contact-me-text{
+     color: var(--light-gray);
+   }
+   
   .mapbox {
     height: 380px;
     border-radius: 18px;
